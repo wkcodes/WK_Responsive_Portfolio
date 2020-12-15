@@ -14,11 +14,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Middleware that looks for files that match a route 
-app.use(express.static("public/build"));
+app.use(express.static("/public"));
 
 // Route
 app.get("/*", function(req, res) {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+  res.sendFile(path.join(__dirname, "./public/index.html"));
 });
 
 // Listen 
