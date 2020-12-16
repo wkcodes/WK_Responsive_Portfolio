@@ -13,7 +13,7 @@
 
 <style>
 	#Gifbox {
-		object-position: top;
+		object-position:left
 	}
 </style>
 

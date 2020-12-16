@@ -1,7 +1,7 @@
 <!--WK Codes logo-->
 <main>
+    <!--This component launches from index.html, file paths originate from there-->
 <img src="./assets/Wklogo3.gif" alt="logo" class="center" style="margin-left: 20px;">
-
 </main>
 
 <style>
