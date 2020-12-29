@@ -26,12 +26,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
-    h2 {
-        padding-left: 10px;
-        padding-right: 10px;
+    h3 {
+        padding-left: 5px;
+        padding-right: 5px;
     }
-    h2:hover {
-       color: coral;
+    h3:hover {
+       color: grey;
        cursor: pointer;
     }
     #about {
@@ -41,7 +41,7 @@
 </style>
 
 <main>
-    <h2 id="about" on:click={() => handleClick("about")}>About</h2>
-    <h2 id="projects" on:click={() => handleClick("projects")}>Projects</h2>
-    <h2 id="contact" on:click={() => handleClick("contact")}>Contact</h2>
+    <h3 id="about" on:click={() => handleClick("about")}>About</h3>
+    <h3 id="projects" on:click={() => handleClick("projects")}>Projects</h3>
+    <h3 id="contact" on:click={() => handleClick("contact")}>Contact</h3>
 </main>

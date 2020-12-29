@@ -2,6 +2,8 @@
     //make the data for the individual projects.Make an if statement that takes props from App to determine which project info to load 
 
     //maybe use css grid here too
+
+    //use a modal for project preview 
 </script>
 
 <h1>Projects</h1>
