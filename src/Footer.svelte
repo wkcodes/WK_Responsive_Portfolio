@@ -1,4 +1,12 @@
 <script>
-    //Copyright footer, can i use C?
-    // (C) Will Kendall 2020
+    
 </script>
+<style>
+    p {
+        position:fixed;
+        bottom: 0;
+        left: 0;
+  right: 0;
+    }
+</style>
+<p>(C) Will Kendall 2020</p>

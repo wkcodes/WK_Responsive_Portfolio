@@ -36,7 +36,7 @@
 <main>
     <h1>Hi, I'm Will.</h1>
     <p>
-        I build full-stack web applications.<br> I recently graduated from the University of Washington Programming Bootcamp, and am currently seeking my first professional role. 
+        I build full-stack web applications.<br> I recently graduated from the University of Washington Programming Bootcamp, and am currently seeking my first position in the industry. 
     </p>
     <a href="./docs/WKResume.pdf"><i class="far fa-file-pdf"> Resume</i></a>
     <article>

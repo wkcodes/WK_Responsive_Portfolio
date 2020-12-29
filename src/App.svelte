@@ -2,6 +2,7 @@
 	import About from "./About.svelte";
 	import Logo from "./Logo.svelte";
 	import Contact from "./Contact.svelte";
+	import Footer from "./Footer.svelte";
 	import Menu from "./Menu.svelte";
 	import Showcase from "./Showcase.svelte";
 	import Projects from "./Projects.svelte";
@@ -51,7 +52,7 @@
 		{#if appChoice === "contact"}
 		<Contact></Contact>
 		{:else if appChoice === "projects"}
-		<Projects></Projects>
+		<Showcase></Showcase>
 		{:else}
 		<About></About>
 		{/if}
@@ -60,6 +61,6 @@
 	<!-- {#if fizzbuzz}
 		<p>fizzbuzz</p>
 	{/if} -->
-	
+	<Footer></Footer>
 </main>
 
