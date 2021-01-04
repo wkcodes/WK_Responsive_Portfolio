@@ -1,5 +1,5 @@
-# svelte app
+# My portfolio site
 
-Make it so full stack web app => makes mythos pop up, other things make others pop up.
+Hosts my about section, resume, project links, contact info.
 
-display resume in markdown?
+Svelte frontend, Express/Node server. Hosted on Heroku.
