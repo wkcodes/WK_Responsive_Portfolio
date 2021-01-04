@@ -1,7 +1,5 @@
 <script>
-    //The about section for my info
-
-    //Put resume download link in here
+    //import svelte transitions for main 
 </script>
 
 <style>
@@ -18,11 +16,12 @@
         justify-content: center;
     }
     article {
-        padding-top: 2px;
+        padding-top: 1px;
     }
     i {
         padding-left: 10px;
         padding-right: 10px;
+        font-size: x-large;
     }
     a {
         text-decoration: none;
@@ -31,18 +30,20 @@
     a:hover {
         color:gray;
     }
+    h2 {
+        padding-top: 10px;
+    }
 </style>
 
 <main>
-    <h1>Hi, I'm Will.</h1>
+    <h1>Hi, I'm Will</h1>
     <p>
         I build full-stack web applications.<br> I recently graduated from the University of Washington Programming Bootcamp, and am currently seeking my first position in the industry. 
     </p>
-    <a href="./docs/WKResume.pdf"><i class="far fa-file-pdf"> Resume</i></a>
+    <a href="./docs/WK_Resume.pdf"><h2><i class="far fa-file-pdf"></i>Resume</h2></a>
     <article>
-        <!--Find another wording for 'Technologies'-->
-        <h3>Technologies:</h3>
-        <p>HTML5, CSS3, JS, Express, MySQL, Heroku.</p>
+        <h3>Tools I'm skilled in:</h3>
+        <p>HTML5, CSS3, JavaScript, MySQL, Heroku.</p>
         <section>
             <i class="fab fa-2x fa-git-alt" />
             <i class="fab fa-2x fa-node" />

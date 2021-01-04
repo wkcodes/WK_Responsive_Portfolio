@@ -1,26 +1,16 @@
 <script>
 	import About from "./About.svelte";
-	import Logo from "./Logo.svelte";
 	import Contact from "./Contact.svelte";
 	import Footer from "./Footer.svelte";
+	import Logo from "./Logo.svelte";
 	import Menu from "./Menu.svelte";
 	import Showcase from "./Showcase.svelte";
-	import Projects from "./Projects.svelte";
-
-	let codeExample ="./assets/code-1076533_640.jpg";
-	let mythosPreview = "./assets/Mythos.jpeg";
-
-	let fizzbuzz = 1;
-	//on click anywhere increments it, print the num and display fizz, buzz, or fizzbuzz, maybe use bind like earlier if i make it its own component
+	import Projects from "./Projects.svelte";	
 
 	console.log("logging from App.svelte");
 
-	function handleClick(args1) {
-		fizzbuzz++;
-	}
 	let appChoice
 	
-	console.log(appChoice)
 </script>
 
 <style>
@@ -38,7 +28,7 @@
 </style>
 
 <!-- Main part of the page-->
-<main on:click={() => handleClick()}>	
+<main>	
 
 	<section id="header">
 		<Logo></Logo>
@@ -58,9 +48,6 @@
 		{/if}
 	</section>
 
-	<!-- {#if fizzbuzz}
-		<p>fizzbuzz</p>
-	{/if} -->
 	<Footer></Footer>
 </main>
 

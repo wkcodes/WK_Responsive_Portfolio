@@ -2,7 +2,7 @@
     
     //Make the buttons change color when clicked, only one can be colored at a time maybe use the if statements to change color variable and apply it to style
 
-    export let menuSelection;
+    export let menuSelection = "";
 
     function handleClick(arg) {
         if(arg === "about"){
@@ -26,11 +26,11 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
-    h3 {
+    h2 {
         padding-left: 5px;
         padding-right: 5px;
     }
-    h3:hover {
+    h2:hover {
        color: grey;
        cursor: pointer;
     }
@@ -41,7 +41,7 @@
 </style>
 
 <main>
-    <h3 id="about" on:click={() => handleClick("about")}>About</h3>
-    <h3 id="projects" on:click={() => handleClick("projects")}>Projects</h3>
-    <h3 id="contact" on:click={() => handleClick("contact")}>Contact</h3>
+    <h2 id="about" on:click={() => handleClick("about")}>About</h2>
+    <h2 id="projects" on:click={() => handleClick("projects")}>Projects</h2>
+    <h2 id="contact" on:click={() => handleClick("contact")}>Contact</h2>
 </main>

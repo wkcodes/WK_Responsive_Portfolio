@@ -6,7 +6,9 @@
     padding-top: 40px;
   }
   i {
-    color: black
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   i:hover {
        color: grey;
@@ -16,6 +18,8 @@
 
 <!--icons-->
 <main>
+
+  <p>Reach me here:</p>
   <a href="https://www.linkedin.com/in/will-k-8222111b9/">
     <i class="fa fa-linkedin-square fa-3x" aria-hidden="true" /></a>
   <a href="https://github.com/wkcodes">
